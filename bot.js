@@ -1,8 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.user.setActivity('YouTube', { type: 'WATCHING' });
-
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+bot.on("ready", () => {
+  console.log("Ready");
+  bot.user.setGame("Type !help");
+}
+       
 client.on('ready', () => {
     console.log('I am ready!');
 });
