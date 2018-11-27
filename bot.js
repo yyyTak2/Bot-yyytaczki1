@@ -6,8 +6,6 @@ bot.on("ready", () => {
   console.log("Ready");
   bot.user.setGame("Type !help");
 
-});
-
 client.on('message', message => {
     if (message.content === 'vert') {
     	message.reply('Siusiaczek');
