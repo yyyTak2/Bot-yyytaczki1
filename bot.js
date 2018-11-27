@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const prefix = '!'
 
 client.on('ready', () => {
-    client.user.setGame(prefix + 'Huhehue');
+    client.user.setGame('Huhehue');
     console.log('I am ready!')
 });
 
