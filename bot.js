@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = '!'
+const prefix = "!"
 
 client.on('ready', () => {
-    client.user.setGame('Huhehue');
-    console.log('I am ready!')
+    client.user.setGame("Huhehue");
+    console.log('I am ready!');
+    client.setStatus("idle")
 });
 
 client.on('message', message => {
