@@ -6,7 +6,7 @@ const prefix = "!"
 client.on('ready', () => {
     client.user.setGame("Huhehue");
     console.log('I am ready!');
-    client.setStatus("idle")
+    
 });
 
 client.on('message', message => {
