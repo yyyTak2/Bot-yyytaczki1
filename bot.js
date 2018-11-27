@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'vert') {
-    	message.reply('Siusiaczek <3');
+    	message.reply('Siusiaczek');
   	}
 });
 
