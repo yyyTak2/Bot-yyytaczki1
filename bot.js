@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
 client.on('ready', () => {
-  avait client.change_presence(game=discord.Game(name='Lul'))  
+  client.change_presence(game=discord.Game(name='Lul');  
   console.log('I am ready!');
   
 });
