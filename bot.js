@@ -3,12 +3,12 @@ const client = new Discord.Client();
 
 
 client.on('ready', () => {
-  bot.user.setGame('Lul');  
+  bot.user.setActivity(name='Lul');  
   console.log('I am ready!');
   
 });
 
-client.on('message', message => {
+client.on('message') => {
     if (message.content === 'vert') {
     	message.reply('Siusiaczek');
   	}
