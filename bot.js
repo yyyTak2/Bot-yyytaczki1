@@ -2,14 +2,18 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const bot = new Discord.Client();
 
-bot.on('game', game => {
-      bot.user.setGame('GEJM HERE')
-      console.log('I am ready!');
-})
-  
+bot.on("ready", () => {
+  console.log("Ready");
+  bot.user.setGame("Type !help");
+}
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
 client.on('message', message => {
-      (message.content === 'vert') {
-    	message.reply('Penisek');
+    if (message.content === 'vert') {
+    	message.reply('Siusiaczek');
   	}
 });
 
