@@ -7,7 +7,7 @@ bot.on('ready', () => {
   console.log('I am ready!');
 })
   
-client.on('message', message => {
+client.on(message => {
     if (message.content === 'vert') {
     	message.reply('Penisek');
   	}
