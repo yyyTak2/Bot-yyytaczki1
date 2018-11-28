@@ -3,11 +3,11 @@ const client = new Discord.Client();
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
-  bot.user.setGame('GEJM HERE')
-  console.log('I am ready!');
+    if bot.user.setGame('GEJM HERE')
+      console.log('I am ready!');
 })
   
-client.on(message => {
+client.on('message', () => {
     if (message.content === 'vert') {
     	message.reply('Penisek');
   	}
