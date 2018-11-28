@@ -5,7 +5,8 @@ const bot = new Discord.Client();
 bot.on("ready", () => {
   console.log("Ready");
   bot.user.setGame("Type !help");
-}
+    }
+});
 
 client.on('ready', () => {
     console.log('I am ready!');
