@@ -2,17 +2,14 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-client.on('ready', () => {
-  bot.user.setActivity(name='Lul')  {
-  console.log('I am ready!');
+bot.on('ready', () => {
+  bot.user.setGame('GEJM HERE')
+})
   
-  }
-  
-});
 
 client.on('message', message => {
     if (message.content === 'vert') {
-    	message.reply('ma małego');
+    	message.reply('Penisek');
   	}
 
 });
