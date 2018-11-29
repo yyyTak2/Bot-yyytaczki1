@@ -6,10 +6,10 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: 'Type !help',
-            type: 1
+            type: 0
         }
     });
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.B0T_T0KEN);
+bot.login(process.env.B0T_T0KEN);
