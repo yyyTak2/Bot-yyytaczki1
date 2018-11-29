@@ -14,12 +14,11 @@ bot.on('ready', () => {
     });
 });
 
-client.on('message', message => {
+bot.on('message', message => {
 
   if(message.content.toLowerCase() === '!help')
-      message.channel.send('Pisz {@yyy... Tak#1959}');
+      message.channel.send('@yyy... Tak#1959 ');
 });
    
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.B0T_T0KEN);
 bot.login(process.env.B0T_T0KEN);
