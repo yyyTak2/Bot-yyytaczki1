@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: 'Mokry Kamilek',
-            type: "STREAMING",
+            type: "STREAMING"
         }
     });
 });
