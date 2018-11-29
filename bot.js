@@ -24,9 +24,6 @@ client.on('message', message => {
 
   else if(message.content.toLowerCase() === 'lol')
       message.channel.send('eksdi');
-   
-        }
-    });
 });
    
 // THIS  MUST  BE  THIS  WAY
