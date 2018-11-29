@@ -5,9 +5,9 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'Mokry Kamilek',
+            name: 'Łazienka Kamilka ❤️',
             type: "STREAMING",
-            url: "https://www.youtube.com/channel/UCPRQyUsYerQFTKdVqgzjQ0g?view_as=subscriber"
+            url: "https://www.twitch.tv/yyytak32"
 
         }
     });
