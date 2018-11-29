@@ -7,7 +7,7 @@ bot.on('ready', () => {
         game: {
             name: 'Mokry Kamilek <3',
             type: "WATCHING",
-            url: "https://www.pornhub.com/"
+            url: "https://www.pornhub.com/view_video.php?viewkey=ph5b94e8f2878b1"
         }
     });
 });
