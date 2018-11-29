@@ -7,7 +7,6 @@ bot.on('ready', () => {
         game: {
             name: 'Mokry Kamilek',
             type: "WATCHING",
-            url: "jko"
         }
     });
 });
