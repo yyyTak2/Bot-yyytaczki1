@@ -16,14 +16,9 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
 
-  if(message.content.toLowerCase() === 'vert')
-      message.channel.send('vert ➫ Taki siusiaczek trochę z niego ale.. miział bym ❤️');
-    
   if(message.content.toLowerCase() === 'twiks')
-      message.channel.send('twiks ➫ Człek i imbecyl ale jaki ❤️');
+      message.channel.send('Przyjdę do cb zaraz i zgwałce ci matkę ❤️');
     
-  if(message.content.toLowerCase() === 'help')
-      message.channel.send('Pisz tu ${@yyy... Tak#1959}');
 });
    
 // THIS  MUST  BE  THIS  WAY
