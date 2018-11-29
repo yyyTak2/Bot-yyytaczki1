@@ -1,2 +1,2 @@
-# bot-yyytaczki <3
+# bot-yyytaczki
 luluul
