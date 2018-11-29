@@ -16,7 +16,7 @@ bot.on('ready', () => {
 
 client.on('message', message => {
 
-  else if(message.content.toLowerCase() === '!help')
+  if(message.content.toLowerCase() === '!help')
       message.channel.send('Pisz {@yyy... Tak#1959}');
 });
    
