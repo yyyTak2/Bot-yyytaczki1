@@ -19,7 +19,7 @@ client.on('message', message => {
  if(message.content.toLowerCase() === 'hello')
       message.channel.send('lololol' + message.author);
    
- else if(message.content.toLowerCase() === 'lol')
+ else if(message.content.toLowerCase() === 'lol1')
       message.reply('pong');
 
   else if(message.content.toLowerCase() === 'lol')
