@@ -10,3 +10,6 @@ bot.on('ready', () => {
         }
     });
 });
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.B0T_T0KEN);
