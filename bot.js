@@ -1,8 +1,12 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+var Discord = require('discord.js');
+var bot = new Discord.Client();
 
-client.on("ready", () => {
-  console.log("Ready");
-  client.user.setActivity('YouTube', { type: 'WATCHING' });
-
-client.login(process.env.B0T_T0KEN);
+bot.on('ready', () => {
+    bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+    bot.user.setPresence({
+        game: {
+            name: 'Type !help',
+            type: 0
+        }
+    });
+});
