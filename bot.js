@@ -5,4 +5,4 @@ bot.on("ready", () => {
   bot.user.setActivity("Type !help");
 });
 
-client.login(process.env.B0T_T0KEN);
+bot.login(process.env.B0T_T0KEN);
