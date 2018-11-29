@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
     
-client.on('ready', () => { client.user.setGame('GAME HERE') })
+client.user.setActivity('YouTube', { type: 'WATCHING' });
     
 });
 
