@@ -2,11 +2,12 @@ var Discord = require('discord.js');
 var bot = new Discord.Client();
 
 bot.on('ready', () => {
-    bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
+    bot.user.setStatus('available')
     bot.user.setPresence({
-        watch: {
-            name: 'Kamilek ma małego fleta <3',
-            type: 0
+        game: {
+            name: 'with depression',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/monstercat"
         }
     });
 });
