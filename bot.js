@@ -1,7 +1,6 @@
 var Discord = require('discord.js');
 var bot = new Discord.Client();
-var logger = require('winston');
-var auth = require('./auth.json')
+var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
@@ -26,8 +25,10 @@ client.on('message', message => {
   else if(message.content.toLowerCase() === 'lol')
       message.channel.send('eksdi');
    
+        }
+    });
 });
    
-   
 // THIS  MUST  BE  THIS  WAY
+client.login(process.env.B0T_T0KEN);
 bot.login(process.env.B0T_T0KEN);
