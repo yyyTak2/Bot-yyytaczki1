@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: 'Type !help',
-            type: 0
+            type: 1
         }
     });
 });
