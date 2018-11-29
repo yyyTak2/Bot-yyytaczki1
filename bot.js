@@ -16,14 +16,14 @@ bot.on('ready', () => {
 
 client.on('message', message => {
 
- if(message.content.toLowerCase() === 'hello')
+ if(message.content.toLowerCase() === 'dassadadsasdf2')
       message.channel.send('lololol' + message.author);
    
- else if(message.content.toLowerCase() === 'lol1')
+ else if(message.content.toLowerCase() === 'wersdasdaadsf1')
       message.reply('pong');
 
-  else if(message.content.toLowerCase() === 'lol')
-      message.channel.send('eksdi');
+  else if(message.content.toLowerCase() === '!help')
+      message.channel.send('Pisz @yyy... Tak#1959');
 });
    
 // THIS  MUST  BE  THIS  WAY
