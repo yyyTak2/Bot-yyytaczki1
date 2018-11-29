@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
-const bot = new Discord.Client();
-bot.on("ready", () => {
-  console.log("Ready");
-  bot.user.setActivity("Type !help");
-});
+const client = new Discord.Client();
 
-bot.login(process.env.B0T_T0KEN);
+client.on("ready", () => {
+  console.log("Ready");
+  client.user.setActivity('YouTube', { type: 'WATCHING' });
+
+client.login(process.env.B0T_T0KEN);
