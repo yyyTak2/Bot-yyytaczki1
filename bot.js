@@ -7,7 +7,7 @@ bot.on('ready', () => {
         game: {
             name: 'Mokry Kamilek',
             type: "STREAMING",
-            url: "https://www.twitch.tv/yyytak32"
+            url: "https://www.youtube.com/channel/UCPRQyUsYerQFTKdVqgzjQ0g?view_as=subscriber"
 
         }
     });
