@@ -17,7 +17,7 @@ bot.on('ready', () => {
 bot.on('message', message => {
 
   if(message.content.toLowerCase() === '!help')
-      message.channel.send('@yyy... Tak#1959 ');
+      message.channel.send("Pisz tu @yyy... Tak#1959");
 });
    
 // THIS  MUST  BE  THIS  WAY
