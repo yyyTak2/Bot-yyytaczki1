@@ -5,7 +5,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '🔥Łazienka Kamilka🔥 👉👌',
+            name: '🔥Łazienka Kamilka🔥 \n 👉👌',
             type: "STREAMING",
             url: "https://www.twitch.tv/yyytak32"
 
