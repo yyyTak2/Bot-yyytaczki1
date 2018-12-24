@@ -16,7 +16,7 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!twiks')
-   message.channel.send('Przyjdę do cb zaraz i zgwałce ci dom ❤️');
+   message.channel.send('**Przyjdę do cb zaraz i zgwałce ci dom ❤️**');
     
 });
 
