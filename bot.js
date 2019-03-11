@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '❗ ZAREJESTRUJ ❗',
+            name: '❗ ZAREJESTRUJ SIĘ ❗',
             type: "STREAMING",
             url: "https://www.twitch.tv/yyytak32"
             
