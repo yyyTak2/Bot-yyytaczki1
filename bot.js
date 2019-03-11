@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '🔥 Łazienka Kamilka 🔥 👉👌',
+            name: '🔥 Hehe hihi 🔥 👉👌',
             type: "STREAMING",
             url: "https://www.twitch.tv/yyytak32"
             
@@ -15,7 +15,7 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === '!twiks')
+if(message.content.toLowerCase() === '!sdsdsd')
    message.channel.send('**Przyjdę do cb zaraz i zgwałce ci dom ❤️**');
     
 });
