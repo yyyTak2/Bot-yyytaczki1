@@ -7,7 +7,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: '❗ ZAREJESTRUJ SIĘ ❗',
-            type: "0",
+            type: 0
             
         }
     });
