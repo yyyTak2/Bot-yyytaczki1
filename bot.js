@@ -3,7 +3,7 @@ var bot = new Discord.Client();
 var client = new Discord.Client();
 
 bot.on('ready', () => {
-    bot.user.setStatus('dnd')
+    bot.user.setStatus('idle')
     bot.user.setPresence({
         game: {
             name: '❗ ZAREJESTRUJ SIĘ ❗',
