@@ -7,8 +7,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: '❗ ZAREJESTRUJ SIĘ ❗',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/yyytak32"
+            type: "0",
             
         }
     });
