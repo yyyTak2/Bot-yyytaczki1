@@ -8,7 +8,6 @@ bot.on('ready', () => {
         game: {
             name: '❗ ZAREJESTRUJ SIĘ ❗',
             type: 0
-            
         }
     });
 });
